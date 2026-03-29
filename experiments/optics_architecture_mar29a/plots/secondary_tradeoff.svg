@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #111; }
+    .small { font-size: 14px; }
+    .axis { stroke: #222; stroke-width: 2; fill: none; }
+    .grid { stroke: #ddd; stroke-width: 1; }
+    .classical { stroke: #1f77b4; stroke-width: 3; fill: none; }
+    .oversized { stroke: #d62728; stroke-width: 3; fill: none; }
+    .prime { stroke: #2ca02c; stroke-width: 3; stroke-dasharray: 8 6; fill: none; }
+    .pt1 { fill: #1f77b4; }
+    .pt2 { fill: #d62728; }
+  </style>
+
+<text x="450" y="28" text-anchor="middle" font-size="22">5 m radio telescope optics trade</text>
+<text x="450" y="50" text-anchor="middle" class="small">Prime focus baseline versus secondary-fed options</text>
+<line x1="90" y1="50" x2="90" y2="470" class="axis"/>
+<line x1="90" y1="470" x2="860" y2="470" class="axis"/>
+<line x1="90" y1="410.0" x2="860" y2="410.0" class="grid"/>
+<text x="78" y="415.0" text-anchor="end" class="small">0.50</text>
+<line x1="90" y1="350.0" x2="860" y2="350.0" class="grid"/>
+<text x="78" y="355.0" text-anchor="end" class="small">0.55</text>
+<line x1="90" y1="290.0" x2="860" y2="290.0" class="grid"/>
+<text x="78" y="295.0" text-anchor="end" class="small">0.60</text>
+<line x1="90" y1="230.0" x2="860" y2="230.0" class="grid"/>
+<text x="78" y="235.0" text-anchor="end" class="small">0.65</text>
+<line x1="90" y1="170.0" x2="860" y2="170.0" class="grid"/>
+<text x="78" y="175.0" text-anchor="end" class="small">0.70</text>
+<line x1="90" y1="110.0" x2="860" y2="110.0" class="grid"/>
+<text x="78" y="115.0" text-anchor="end" class="small">0.75</text>
+<line x1="90.0" y1="50" x2="90.0" y2="470" class="grid"/>
+<text x="90.0" y="494" text-anchor="middle" class="small">0.35</text>
+<line x1="282.5" y1="50" x2="282.5" y2="470" class="grid"/>
+<text x="282.5" y="494" text-anchor="middle" class="small">0.50</text>
+<line x1="475.0" y1="50" x2="475.0" y2="470" class="grid"/>
+<text x="475.0" y="494" text-anchor="middle" class="small">0.65</text>
+<line x1="667.5" y1="50" x2="667.5" y2="470" class="grid"/>
+<text x="667.5" y="494" text-anchor="middle" class="small">0.80</text>
+<line x1="860.0" y1="50" x2="860.0" y2="470" class="grid"/>
+<text x="860.0" y="494" text-anchor="middle" class="small">0.95</text>
+<polyline points="90.0,362.0 282.5,254.0 475.0,170.0 667.5,194.0 860.0,290.0" class="classical"/>
+<polyline points="90.0,410.0 282.5,290.0 475.0,218.0 667.5,206.0 860.0,278.0" class="oversized"/>
+<line x1="90" y1="122.0" x2="860" y2="122.0" class="prime"/>
+<circle cx="90.0" cy="362.0" r="4.5" class="pt1"/>
+<circle cx="282.5" cy="254.0" r="4.5" class="pt1"/>
+<circle cx="475.0" cy="170.0" r="4.5" class="pt1"/>
+<circle cx="667.5" cy="194.0" r="4.5" class="pt1"/>
+<circle cx="860.0" cy="290.0" r="4.5" class="pt1"/>
+<circle cx="90.0" cy="410.0" r="4.5" class="pt2"/>
+<circle cx="282.5" cy="290.0" r="4.5" class="pt2"/>
+<circle cx="475.0" cy="218.0" r="4.5" class="pt2"/>
+<circle cx="667.5" cy="206.0" r="4.5" class="pt2"/>
+<circle cx="860.0" cy="278.0" r="4.5" class="pt2"/>
+<text x="450" y="532" text-anchor="middle" class="small">Secondary diameter (m)</text>
+<text x="24" y="260" transform="rotate(-90 24 260)" text-anchor="middle" class="small">Normalized architecture score</text>
+<line x1="630" y1="82" x2="680" y2="82" class="classical"/>
+<text x="690" y="87" class="small">Classical Cassegrain</text>
+<line x1="630" y1="108" x2="680" y2="108" class="oversized"/>
+<text x="690" y="113" class="small">Oversized secondary</text>
+<line x1="630" y1="134" x2="680" y2="134" class="prime"/>
+<text x="690" y="139" class="small">Prime focus baseline</text>
+<text x="100" y="112.0" class="small">Prime focus preferred for Rev A</text>
+</svg>
