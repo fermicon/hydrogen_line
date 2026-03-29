@@ -1,0 +1,6 @@
+secondary_diameter_m,classical_score,oversized_score,prime_focus_score,area_blockage_fraction,notes
+0.35,0.54,0.50,0.74,0.0049,Very small secondary; packaging tight and alignment unforgiving
+0.50,0.63,0.60,0.74,0.0100,Conventional lower end; manageable blockage
+0.65,0.70,0.66,0.74,0.0169,Best conventional compromise
+0.80,0.68,0.67,0.74,0.0256,Oversized option; packaging better but blockage rises
+0.95,0.60,0.61,0.74,0.0361,Hard to justify on a 5 m student-built dish
