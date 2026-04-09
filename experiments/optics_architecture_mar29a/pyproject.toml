@@ -1,0 +1,9 @@
+[project]
+name = "optics-architecture-mar29a"
+version = "0.1.0"
+description = "Compact trade study for a 5 m radio telescope optics architecture"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+package = false
